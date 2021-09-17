@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Java Script - Atividade Calculadora
+	</title>
+
+	<meta charset="utf-8">
+
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+<body>
+
+   <div class="container">
+     <div class="calculadora">
+
+       <div class="calcu-header">
+          <input 
+          type="text"
+          disabled="disabled" 
+          placeholder="0"
+          id="resultado"
+          />
+       </div>
+
+       <div class="calcu-body">
+          
+         <div class="conluna-um row" >
+            <button onclick="Calcular ( 'acao', 'c' )" class="button-retangulo-deitado">
+              C
+            </button>
+
+            <button onclick="Calcular ( 'acao', '/' )"  class="button-quadrado">
+              /
+            </button>
+
+            <button onclick="Calcular ( 'acao', '*' )"   class="button-quadrado">
+              X
+            </button>
+         </div>
+        
+
+         <div class="conluna-dois row" >
+          
+          <button onclick="Calcular ( 'valor', 7 )"  class="button-quadrado">
+            7
+          </button>
+
+           <button onclick="Calcular ( 'valor', 8 )"  class="button-quadrado">
+            8
+          </button>
+
+          <button onclick="Calcular ( 'valor', 9 )"  class="button-quadrado">
+            9
+          </button>
+
+          <button onclick="Calcular ( 'acao', '-' )"   class="button-quadrado">
+            -
+          </button>
+        </div>
+
+
+        
+        <div class="conluna-tres row" >
+          
+          <button onclick="Calcular ( 'valor', 4 )"  class="button-quadrado">
+            4
+          </button>
+
+           <button onclick="Calcular ( 'valor', 5 )"  class="button-quadrado">
+            5
+          </button>
+
+          <button onclick="Calcular ( 'valor', 6 )"  class="button-quadrado">
+            6
+          </button>
+
+          <button onclick="Calcular ( 'acao', '+' )"   class="button-quadrado">
+            +
+          </button>
+        </div>
+
+
+        
+        <div class="conluna-qua row" >
+          
+          <button onclick="Calcular ( 'valor', 1 )" class="button-quadrado">
+            1
+          </button>
+
+           <button onclick="Calcular ( 'valor', 2 )" class="button-quadrado">
+            2
+          </button>
+
+          <button onclick="Calcular ( 'valor', 3 )" class="button-quadrado">
+            3
+          </button>
+
+          <button onclick="Calcular ( 'acao', '=' )"  class="button-retangulo-empe">
+            =
+          </button>
+          
+        </div>
+
+        
+        <div class="conluna-cinco row" >
+          
+           
+          <button onclick="Calcular ( 'valor', 0 )" class="button-retangulo-deitado">
+            0
+          </button>
+
+          <button onclick="Calcular ( 'acao', '.' )" class="button-quadrado">
+            .
+          </button>
+          
+        </div>
+
+
+       </div>
+     </div>
+   </div>
+
+
+
+  <!-- SCRIPT -->
+  <script src="js/script.js"> </script>
+  <!-- FIM SCRIPT -->
+
+</body>
+</html>
